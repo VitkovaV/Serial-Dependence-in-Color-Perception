@@ -1,0 +1,1125 @@
+10.3072 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+11.0514 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x08BD6FB0>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.0515 	EXP 	window1: recordFrameIntervals = False
+11.2168 	EXP 	window1: recordFrameIntervals = True
+11.4004 	EXP 	window1: recordFrameIntervals = False
+11.6164 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+11.6235 	EXP 	Created polygon_2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+11.6273 	EXP 	Created Noise_patch = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask='circle', maskParams=None, name='Noise_patch', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), texRes=128, units=u'norm', win=Window(...))
+11.6329 	EXP 	Created polygon = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-3.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.9604 	EXP 	Created Fixation_cross1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation_cross1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+13.9629 	EXP 	Created Fixation_cross2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation_cross2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+13.9683 	EXP 	Created polygon_3 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.9735 	EXP 	Created polygon_4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.9786 	EXP 	Created polygon_5 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.9838 	EXP 	Created polygon_6 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([ 1.,  1.,  1.]), fillColorSpace='rgb', fillRGB=array([ 1.,  1.,  1.]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_6', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.9953 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'This is the end of the experiment.', units=u'norm', win=Window(...), wrapWidth=1)
+13.9978 	EXP 	window1: blendMode = 'avg'
+14.0068 	EXP 	text: autoDraw = True
+14.0072 	EXP 	window1: blendMode = 'avg'
+14.0158 	EXP 	window1: blendMode = 'avg'
+14.0325 	EXP 	window1: blendMode = 'avg'
+14.0493 	EXP 	window1: blendMode = 'avg'
+14.0667 	EXP 	window1: blendMode = 'avg'
+14.0833 	EXP 	window1: blendMode = 'avg'
+14.1005 	EXP 	window1: blendMode = 'avg'
+14.1167 	EXP 	window1: blendMode = 'avg'
+14.1333 	EXP 	window1: blendMode = 'avg'
+14.1501 	EXP 	window1: blendMode = 'avg'
+14.1666 	EXP 	window1: blendMode = 'avg'
+14.1833 	EXP 	window1: blendMode = 'avg'
+14.2001 	EXP 	window1: blendMode = 'avg'
+14.2168 	EXP 	window1: blendMode = 'avg'
+14.2332 	EXP 	window1: blendMode = 'avg'
+14.2497 	EXP 	window1: blendMode = 'avg'
+14.2666 	EXP 	window1: blendMode = 'avg'
+14.2832 	EXP 	window1: blendMode = 'avg'
+14.3002 	EXP 	window1: blendMode = 'avg'
+14.3166 	EXP 	window1: blendMode = 'avg'
+14.3332 	EXP 	window1: blendMode = 'avg'
+14.3500 	EXP 	window1: blendMode = 'avg'
+14.3665 	EXP 	window1: blendMode = 'avg'
+14.3833 	EXP 	window1: blendMode = 'avg'
+14.3999 	EXP 	window1: blendMode = 'avg'
+14.4168 	EXP 	window1: blendMode = 'avg'
+14.4332 	EXP 	window1: blendMode = 'avg'
+14.4498 	EXP 	window1: blendMode = 'avg'
+14.4667 	EXP 	window1: blendMode = 'avg'
+14.4832 	EXP 	window1: blendMode = 'avg'
+14.4997 	EXP 	window1: blendMode = 'avg'
+14.5164 	EXP 	window1: blendMode = 'avg'
+14.5321 	EXP 	window1: blendMode = 'avg'
+14.5490 	EXP 	window1: blendMode = 'avg'
+14.5659 	EXP 	window1: blendMode = 'avg'
+14.5832 	EXP 	window1: blendMode = 'avg'
+14.6001 	EXP 	window1: blendMode = 'avg'
+14.6167 	EXP 	window1: blendMode = 'avg'
+14.6332 	EXP 	window1: blendMode = 'avg'
+14.6500 	EXP 	window1: blendMode = 'avg'
+14.6665 	EXP 	window1: blendMode = 'avg'
+14.6832 	EXP 	window1: blendMode = 'avg'
+14.6997 	EXP 	window1: blendMode = 'avg'
+14.7164 	EXP 	window1: blendMode = 'avg'
+14.7331 	EXP 	window1: blendMode = 'avg'
+14.7498 	EXP 	window1: blendMode = 'avg'
+14.7664 	EXP 	window1: blendMode = 'avg'
+14.7834 	EXP 	window1: blendMode = 'avg'
+14.7999 	EXP 	window1: blendMode = 'avg'
+14.8164 	EXP 	window1: blendMode = 'avg'
+14.8331 	EXP 	window1: blendMode = 'avg'
+14.8499 	EXP 	window1: blendMode = 'avg'
+14.8664 	EXP 	window1: blendMode = 'avg'
+14.8831 	EXP 	window1: blendMode = 'avg'
+14.8998 	EXP 	window1: blendMode = 'avg'
+14.9164 	EXP 	window1: blendMode = 'avg'
+14.9329 	EXP 	window1: blendMode = 'avg'
+14.9497 	EXP 	window1: blendMode = 'avg'
+14.9664 	EXP 	window1: blendMode = 'avg'
+14.9830 	EXP 	window1: blendMode = 'avg'
+14.9995 	EXP 	window1: blendMode = 'avg'
+15.0161 	EXP 	window1: blendMode = 'avg'
+15.0321 	EXP 	window1: blendMode = 'avg'
+15.0489 	EXP 	window1: blendMode = 'avg'
+15.0659 	EXP 	window1: blendMode = 'avg'
+15.0829 	EXP 	window1: blendMode = 'avg'
+15.0994 	EXP 	window1: blendMode = 'avg'
+15.1165 	EXP 	window1: blendMode = 'avg'
+15.1330 	EXP 	window1: blendMode = 'avg'
+15.1499 	EXP 	window1: blendMode = 'avg'
+15.1663 	EXP 	window1: blendMode = 'avg'
+15.1830 	EXP 	window1: blendMode = 'avg'
+15.1997 	EXP 	window1: blendMode = 'avg'
+15.2165 	EXP 	window1: blendMode = 'avg'
+15.2329 	EXP 	window1: blendMode = 'avg'
+15.2495 	EXP 	window1: blendMode = 'avg'
+15.2663 	EXP 	window1: blendMode = 'avg'
+15.2829 	EXP 	window1: blendMode = 'avg'
+15.2994 	EXP 	window1: blendMode = 'avg'
+15.3164 	EXP 	window1: blendMode = 'avg'
+15.3327 	EXP 	window1: blendMode = 'avg'
+15.3497 	EXP 	window1: blendMode = 'avg'
+15.3661 	EXP 	window1: blendMode = 'avg'
+15.3829 	EXP 	window1: blendMode = 'avg'
+15.3994 	EXP 	window1: blendMode = 'avg'
+15.4152 	EXP 	window1: blendMode = 'avg'
+15.4361 	DATA 	Mouse: Left button down, pos=(867,719)
+15.4370 	EXP 	window1: blendMode = 'avg'
+15.4482 	EXP 	window1: blendMode = 'avg'
+15.4655 	EXP 	window1: blendMode = 'avg'
+15.4822 	DATA 	Mouse:  Left button up, pos=(867,719)
+15.4835 	EXP 	window1: blendMode = 'avg'
+15.4998 	EXP 	window1: blendMode = 'avg'
+15.5159 	EXP 	window1: blendMode = 'avg'
+15.5330 	EXP 	window1: blendMode = 'avg'
+15.5496 	EXP 	window1: blendMode = 'avg'
+15.5661 	EXP 	window1: blendMode = 'avg'
+15.5828 	EXP 	window1: blendMode = 'avg'
+15.5997 	EXP 	window1: blendMode = 'avg'
+15.6161 	EXP 	window1: blendMode = 'avg'
+15.6327 	EXP 	window1: blendMode = 'avg'
+15.6497 	EXP 	window1: blendMode = 'avg'
+15.6662 	EXP 	window1: blendMode = 'avg'
+15.6827 	EXP 	window1: blendMode = 'avg'
+15.6996 	EXP 	window1: blendMode = 'avg'
+15.7163 	EXP 	window1: blendMode = 'avg'
+15.7327 	EXP 	window1: blendMode = 'avg'
+15.7497 	EXP 	window1: blendMode = 'avg'
+15.7659 	EXP 	window1: blendMode = 'avg'
+15.7829 	EXP 	window1: blendMode = 'avg'
+15.7995 	EXP 	window1: blendMode = 'avg'
+15.8165 	EXP 	window1: blendMode = 'avg'
+15.8327 	EXP 	window1: blendMode = 'avg'
+15.8496 	EXP 	window1: blendMode = 'avg'
+15.8662 	EXP 	window1: blendMode = 'avg'
+15.8826 	EXP 	window1: blendMode = 'avg'
+15.8996 	EXP 	window1: blendMode = 'avg'
+15.9161 	EXP 	window1: blendMode = 'avg'
+15.9325 	EXP 	window1: blendMode = 'avg'
+15.9495 	EXP 	window1: blendMode = 'avg'
+15.9663 	EXP 	window1: blendMode = 'avg'
+15.9829 	EXP 	window1: blendMode = 'avg'
+15.9995 	EXP 	window1: blendMode = 'avg'
+16.0169 	EXP 	window1: blendMode = 'avg'
+16.0329 	EXP 	window1: blendMode = 'avg'
+16.0493 	EXP 	window1: blendMode = 'avg'
+16.0662 	EXP 	window1: blendMode = 'avg'
+16.0828 	EXP 	window1: blendMode = 'avg'
+16.0991 	DATA 	Keypress: space
+16.1365 	EXP 	Imported Stimuli-red.xlsx as conditions, 11 conditions, 1 params
+16.1375 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+16.1383 	EXP 	New trial (rep=0, index=0): {'stimulus_color': [1, 1, 0]}
+16.1523 	EXP 	window1: recordFrameIntervals = False
+16.1529 	EXP 	window1: blendMode = 'avg'
+16.1582 	EXP 	text: autoDraw = False
+16.1582 	EXP 	polygon_2: fillColor = '[ 1.  1.  0.] (rgb)'
+16.1582 	EXP 	polygon_2: lineColor = '[ 1.  1.  0.] (rgb)'
+16.1582 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+16.1582 	EXP 	Fixation_cross1: autoDraw = True
+16.1596 	EXP 	window1: recordFrameIntervals = False
+16.6383 	EXP 	window1: blendMode = 'avg'
+16.6446 	EXP 	window1: blendMode = 'avg'
+16.6644 	EXP 	window1: blendMode = 'avg'
+16.6822 	EXP 	window1: blendMode = 'avg'
+16.6989 	EXP 	window1: blendMode = 'avg'
+16.7158 	EXP 	window1: blendMode = 'avg'
+16.7337 	EXP 	window1: blendMode = 'avg'
+16.7506 	EXP 	window1: blendMode = 'avg'
+16.7672 	EXP 	window1: blendMode = 'avg'
+16.7838 	EXP 	window1: blendMode = 'avg'
+16.8007 	EXP 	window1: blendMode = 'avg'
+16.8156 	EXP 	window1: blendMode = 'avg'
+16.8322 	EXP 	window1: blendMode = 'avg'
+16.8491 	EXP 	window1: blendMode = 'avg'
+16.8671 	EXP 	window1: blendMode = 'avg'
+16.8838 	EXP 	window1: blendMode = 'avg'
+16.9004 	EXP 	window1: blendMode = 'avg'
+16.9169 	EXP 	window1: blendMode = 'avg'
+16.9338 	EXP 	window1: blendMode = 'avg'
+16.9503 	EXP 	window1: blendMode = 'avg'
+16.9671 	EXP 	window1: blendMode = 'avg'
+16.9839 	EXP 	window1: blendMode = 'avg'
+17.0005 	EXP 	window1: blendMode = 'avg'
+17.0169 	EXP 	window1: blendMode = 'avg'
+17.0323 	EXP 	window1: blendMode = 'avg'
+17.0489 	EXP 	window1: blendMode = 'avg'
+17.0666 	EXP 	window1: blendMode = 'avg'
+17.0837 	EXP 	window1: blendMode = 'avg'
+17.1004 	EXP 	window1: blendMode = 'avg'
+17.1170 	EXP 	window1: blendMode = 'avg'
+17.1336 	EXP 	window1: blendMode = 'avg'
+17.1502 	EXP 	window1: blendMode = 'avg'
+17.1673 	EXP 	window1: blendMode = 'avg'
+17.1837 	EXP 	window1: blendMode = 'avg'
+17.2004 	EXP 	window1: blendMode = 'avg'
+17.2168 	EXP 	window1: blendMode = 'avg'
+17.2336 	EXP 	window1: blendMode = 'avg'
+17.2505 	EXP 	window1: blendMode = 'avg'
+17.2674 	EXP 	window1: blendMode = 'avg'
+17.2837 	EXP 	window1: blendMode = 'avg'
+17.3005 	EXP 	window1: blendMode = 'avg'
+17.3168 	EXP 	window1: blendMode = 'avg'
+17.3337 	EXP 	window1: blendMode = 'avg'
+17.3503 	EXP 	window1: blendMode = 'avg'
+17.3673 	EXP 	window1: blendMode = 'avg'
+17.3836 	EXP 	window1: blendMode = 'avg'
+17.4003 	EXP 	window1: blendMode = 'avg'
+17.4167 	EXP 	window1: blendMode = 'avg'
+17.4338 	EXP 	window1: blendMode = 'avg'
+17.4503 	EXP 	window1: blendMode = 'avg'
+17.4670 	EXP 	window1: blendMode = 'avg'
+17.4838 	EXP 	window1: blendMode = 'avg'
+17.5003 	EXP 	window1: blendMode = 'avg'
+17.5167 	EXP 	window1: blendMode = 'avg'
+17.5336 	EXP 	window1: blendMode = 'avg'
+17.5503 	EXP 	window1: blendMode = 'avg'
+17.5669 	EXP 	window1: blendMode = 'avg'
+17.5835 	EXP 	window1: blendMode = 'avg'
+17.6002 	EXP 	window1: blendMode = 'avg'
+17.6168 	EXP 	window1: blendMode = 'avg'
+17.6334 	EXP 	window1: blendMode = 'avg'
+17.6502 	EXP 	window1: blendMode = 'avg'
+17.6670 	EXP 	window1: blendMode = 'avg'
+17.6835 	EXP 	window1: blendMode = 'avg'
+17.7015 	EXP 	window1: blendMode = 'avg'
+17.7167 	EXP 	window1: blendMode = 'avg'
+17.7336 	EXP 	window1: blendMode = 'avg'
+17.7495 	EXP 	window1: blendMode = 'avg'
+17.7668 	EXP 	window1: blendMode = 'avg'
+17.7835 	EXP 	window1: blendMode = 'avg'
+17.8004 	EXP 	window1: blendMode = 'avg'
+17.8167 	EXP 	window1: blendMode = 'avg'
+17.8328 	EXP 	window1: blendMode = 'avg'
+17.8503 	EXP 	window1: blendMode = 'avg'
+17.8668 	EXP 	window1: blendMode = 'avg'
+17.8834 	EXP 	window1: blendMode = 'avg'
+17.9002 	EXP 	window1: blendMode = 'avg'
+17.9154 	EXP 	window1: blendMode = 'avg'
+17.9319 	EXP 	window1: blendMode = 'avg'
+17.9492 	EXP 	window1: blendMode = 'avg'
+17.9671 	EXP 	window1: blendMode = 'avg'
+17.9836 	EXP 	window1: blendMode = 'avg'
+18.0001 	EXP 	window1: blendMode = 'avg'
+18.0169 	EXP 	window1: blendMode = 'avg'
+18.0333 	EXP 	window1: blendMode = 'avg'
+18.0503 	EXP 	window1: blendMode = 'avg'
+18.0668 	EXP 	window1: blendMode = 'avg'
+18.0834 	EXP 	window1: blendMode = 'avg'
+18.1001 	EXP 	window1: blendMode = 'avg'
+18.1169 	EXP 	window1: blendMode = 'avg'
+18.1477 	EXP 	Fixation_cross1: autoDraw = False
+18.1695 	EXP 	polygon_2: autoDraw = True
+18.6474 	EXP 	polygon_2: autoDraw = False
+18.6643 	EXP 	Noise_patch: autoDraw = True
+19.6474 	EXP 	Noise_patch: autoDraw = False
+19.6507 	EXP 	window1: blendMode = 'avg'
+19.6639 	EXP 	Fixation_cross2: autoDraw = True
+19.6650 	EXP 	window1: blendMode = 'avg'
+19.6816 	EXP 	window1: blendMode = 'avg'
+19.6987 	EXP 	window1: blendMode = 'avg'
+19.7163 	EXP 	window1: blendMode = 'avg'
+19.7346 	EXP 	window1: blendMode = 'avg'
+19.7498 	EXP 	window1: blendMode = 'avg'
+19.7662 	EXP 	window1: blendMode = 'avg'
+19.7830 	EXP 	window1: blendMode = 'avg'
+19.7998 	EXP 	window1: blendMode = 'avg'
+19.8162 	EXP 	window1: blendMode = 'avg'
+19.8329 	EXP 	window1: blendMode = 'avg'
+19.8496 	EXP 	window1: blendMode = 'avg'
+19.8664 	EXP 	window1: blendMode = 'avg'
+19.8972 	EXP 	Fixation_cross2: autoDraw = False
+19.9138 	EXP 	polygon: autoDraw = True
+21.4012 	DATA 	Keypress: left
+22.2174 	DATA 	Keypress: left
+22.5852 	DATA 	Keypress: right
+22.7669 	DATA 	Keypress: right
+22.9182 	DATA 	Keypress: right
+23.1679 	DATA 	Keypress: space
+23.1847 	EXP 	New trial (rep=0, index=1): {'stimulus_color': [1, 0.5, 0]}
+23.1948 	EXP 	window1: recordFrameIntervals = False
+23.1952 	EXP 	window1: blendMode = 'avg'
+23.1998 	EXP 	polygon_2: autoDraw = False
+23.1998 	EXP 	Noise_patch: autoDraw = False
+23.1998 	EXP 	polygon: autoDraw = False
+23.1998 	EXP 	Fixation_cross1: autoDraw = False
+23.1998 	EXP 	Fixation_cross2: autoDraw = False
+23.1998 	EXP 	polygon_2: fillColor = '[ 1.   0.5  0. ] (rgb)'
+23.1998 	EXP 	polygon_2: lineColor = '[ 1.   0.5  0. ] (rgb)'
+23.1998 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+23.1998 	EXP 	Fixation_cross1: autoDraw = True
+23.2004 	EXP 	window1: recordFrameIntervals = False
+23.6846 	EXP 	window1: blendMode = 'avg'
+23.6907 	EXP 	window1: blendMode = 'avg'
+23.7122 	EXP 	window1: blendMode = 'avg'
+23.7302 	EXP 	window1: blendMode = 'avg'
+23.7466 	EXP 	window1: blendMode = 'avg'
+23.7635 	EXP 	window1: blendMode = 'avg'
+23.7807 	EXP 	window1: blendMode = 'avg'
+23.7981 	EXP 	window1: blendMode = 'avg'
+23.8150 	EXP 	window1: blendMode = 'avg'
+23.8300 	EXP 	window1: blendMode = 'avg'
+23.8467 	EXP 	window1: blendMode = 'avg'
+23.8643 	EXP 	window1: blendMode = 'avg'
+23.8813 	EXP 	window1: blendMode = 'avg'
+23.8983 	EXP 	window1: blendMode = 'avg'
+23.9147 	EXP 	window1: blendMode = 'avg'
+23.9312 	EXP 	window1: blendMode = 'avg'
+23.9466 	EXP 	window1: blendMode = 'avg'
+23.9639 	EXP 	window1: blendMode = 'avg'
+23.9812 	EXP 	window1: blendMode = 'avg'
+23.9981 	EXP 	window1: blendMode = 'avg'
+24.0149 	EXP 	window1: blendMode = 'avg'
+24.0313 	EXP 	window1: blendMode = 'avg'
+24.0478 	EXP 	window1: blendMode = 'avg'
+24.0650 	EXP 	window1: blendMode = 'avg'
+24.0817 	EXP 	window1: blendMode = 'avg'
+24.0986 	EXP 	window1: blendMode = 'avg'
+24.1150 	EXP 	window1: blendMode = 'avg'
+24.1318 	EXP 	window1: blendMode = 'avg'
+24.1484 	EXP 	window1: blendMode = 'avg'
+24.1649 	EXP 	window1: blendMode = 'avg'
+24.1815 	EXP 	window1: blendMode = 'avg'
+24.1984 	EXP 	window1: blendMode = 'avg'
+24.2153 	EXP 	window1: blendMode = 'avg'
+24.2316 	EXP 	window1: blendMode = 'avg'
+24.2483 	EXP 	window1: blendMode = 'avg'
+24.2651 	EXP 	window1: blendMode = 'avg'
+24.2815 	EXP 	window1: blendMode = 'avg'
+24.2984 	EXP 	window1: blendMode = 'avg'
+24.3149 	EXP 	window1: blendMode = 'avg'
+24.3318 	EXP 	window1: blendMode = 'avg'
+24.3480 	EXP 	window1: blendMode = 'avg'
+24.3648 	EXP 	window1: blendMode = 'avg'
+24.3815 	EXP 	window1: blendMode = 'avg'
+24.3987 	EXP 	window1: blendMode = 'avg'
+24.4153 	EXP 	window1: blendMode = 'avg'
+24.4314 	EXP 	window1: blendMode = 'avg'
+24.4481 	EXP 	window1: blendMode = 'avg'
+24.4649 	EXP 	window1: blendMode = 'avg'
+24.4815 	EXP 	window1: blendMode = 'avg'
+24.4982 	EXP 	window1: blendMode = 'avg'
+24.5147 	EXP 	window1: blendMode = 'avg'
+24.5314 	EXP 	window1: blendMode = 'avg'
+24.5479 	EXP 	window1: blendMode = 'avg'
+24.5648 	EXP 	window1: blendMode = 'avg'
+24.5815 	EXP 	window1: blendMode = 'avg'
+24.5982 	EXP 	window1: blendMode = 'avg'
+24.6147 	EXP 	window1: blendMode = 'avg'
+24.6314 	EXP 	window1: blendMode = 'avg'
+24.6482 	EXP 	window1: blendMode = 'avg'
+24.6647 	EXP 	window1: blendMode = 'avg'
+24.6814 	EXP 	window1: blendMode = 'avg'
+24.6982 	EXP 	window1: blendMode = 'avg'
+24.7150 	EXP 	window1: blendMode = 'avg'
+24.7314 	EXP 	window1: blendMode = 'avg'
+24.7482 	EXP 	window1: blendMode = 'avg'
+24.7649 	EXP 	window1: blendMode = 'avg'
+24.7813 	EXP 	window1: blendMode = 'avg'
+24.7996 	EXP 	window1: blendMode = 'avg'
+24.8150 	EXP 	window1: blendMode = 'avg'
+24.8296 	EXP 	window1: blendMode = 'avg'
+24.8465 	EXP 	window1: blendMode = 'avg'
+24.8641 	EXP 	window1: blendMode = 'avg'
+24.8813 	EXP 	window1: blendMode = 'avg'
+24.8984 	EXP 	window1: blendMode = 'avg'
+24.9148 	EXP 	window1: blendMode = 'avg'
+24.9315 	EXP 	window1: blendMode = 'avg'
+24.9478 	EXP 	window1: blendMode = 'avg'
+24.9648 	EXP 	window1: blendMode = 'avg'
+24.9814 	EXP 	window1: blendMode = 'avg'
+24.9981 	EXP 	window1: blendMode = 'avg'
+25.0150 	EXP 	window1: blendMode = 'avg'
+25.0297 	EXP 	window1: blendMode = 'avg'
+25.0469 	EXP 	window1: blendMode = 'avg'
+25.0648 	EXP 	window1: blendMode = 'avg'
+25.0814 	EXP 	window1: blendMode = 'avg'
+25.0981 	EXP 	window1: blendMode = 'avg'
+25.1148 	EXP 	window1: blendMode = 'avg'
+25.1312 	EXP 	window1: blendMode = 'avg'
+25.1482 	EXP 	window1: blendMode = 'avg'
+25.1646 	EXP 	window1: blendMode = 'avg'
+25.1955 	EXP 	Fixation_cross1: autoDraw = False
+25.2124 	EXP 	polygon_2: autoDraw = True
+25.6954 	EXP 	polygon_2: autoDraw = False
+25.7123 	EXP 	Noise_patch: autoDraw = True
+26.6951 	EXP 	Noise_patch: autoDraw = False
+26.6978 	EXP 	window1: blendMode = 'avg'
+26.7120 	EXP 	Fixation_cross2: autoDraw = True
+26.7145 	EXP 	window1: blendMode = 'avg'
+26.7308 	EXP 	window1: blendMode = 'avg'
+26.7474 	EXP 	window1: blendMode = 'avg'
+26.7642 	EXP 	window1: blendMode = 'avg'
+26.7807 	EXP 	window1: blendMode = 'avg'
+26.7976 	EXP 	window1: blendMode = 'avg'
+26.8142 	EXP 	window1: blendMode = 'avg'
+26.8309 	EXP 	window1: blendMode = 'avg'
+26.8474 	EXP 	window1: blendMode = 'avg'
+26.8640 	EXP 	window1: blendMode = 'avg'
+26.8808 	EXP 	window1: blendMode = 'avg'
+26.8978 	EXP 	window1: blendMode = 'avg'
+26.9142 	EXP 	window1: blendMode = 'avg'
+26.9450 	EXP 	Fixation_cross2: autoDraw = False
+26.9618 	EXP 	polygon: autoDraw = True
+27.3658 	DATA 	Keypress: left
+27.5503 	DATA 	Keypress: left
+27.6821 	DATA 	Keypress: left
+28.0836 	DATA 	Keypress: space
+28.0855 	EXP 	New trial (rep=0, index=2): {'stimulus_color': [1, 0.3, 0]}
+28.0950 	EXP 	window1: recordFrameIntervals = False
+28.0959 	EXP 	window1: blendMode = 'avg'
+28.1014 	EXP 	polygon_2: autoDraw = False
+28.1014 	EXP 	Noise_patch: autoDraw = False
+28.1014 	EXP 	polygon: autoDraw = False
+28.1014 	EXP 	Fixation_cross1: autoDraw = False
+28.1014 	EXP 	Fixation_cross2: autoDraw = False
+28.1014 	EXP 	polygon_2: fillColor = '[ 1.   0.3  0. ] (rgb)'
+28.1014 	EXP 	polygon_2: lineColor = '[ 1.   0.3  0. ] (rgb)'
+28.1014 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+28.1014 	EXP 	Fixation_cross1: autoDraw = True
+28.1031 	EXP 	window1: recordFrameIntervals = False
+28.5788 	EXP 	window1: blendMode = 'avg'
+28.5848 	EXP 	window1: blendMode = 'avg'
+28.5951 	EXP 	window1: blendMode = 'avg'
+28.6118 	EXP 	window1: blendMode = 'avg'
+28.6284 	EXP 	window1: blendMode = 'avg'
+28.6449 	EXP 	window1: blendMode = 'avg'
+28.6619 	EXP 	window1: blendMode = 'avg'
+28.6789 	EXP 	window1: blendMode = 'avg'
+28.6971 	EXP 	window1: blendMode = 'avg'
+28.7138 	EXP 	window1: blendMode = 'avg'
+28.7301 	EXP 	window1: blendMode = 'avg'
+28.7467 	EXP 	window1: blendMode = 'avg'
+28.7637 	EXP 	window1: blendMode = 'avg'
+28.7802 	EXP 	window1: blendMode = 'avg'
+28.7969 	EXP 	window1: blendMode = 'avg'
+28.8136 	EXP 	window1: blendMode = 'avg'
+28.8302 	EXP 	window1: blendMode = 'avg'
+28.8467 	EXP 	window1: blendMode = 'avg'
+28.8636 	EXP 	window1: blendMode = 'avg'
+28.8803 	EXP 	window1: blendMode = 'avg'
+28.8971 	EXP 	window1: blendMode = 'avg'
+28.9135 	EXP 	window1: blendMode = 'avg'
+28.9300 	EXP 	window1: blendMode = 'avg'
+28.9469 	EXP 	window1: blendMode = 'avg'
+28.9634 	EXP 	window1: blendMode = 'avg'
+28.9803 	EXP 	window1: blendMode = 'avg'
+28.9969 	EXP 	window1: blendMode = 'avg'
+29.0138 	EXP 	window1: blendMode = 'avg'
+29.0300 	EXP 	window1: blendMode = 'avg'
+29.0467 	EXP 	window1: blendMode = 'avg'
+29.0638 	EXP 	window1: blendMode = 'avg'
+29.0802 	EXP 	window1: blendMode = 'avg'
+29.0968 	EXP 	window1: blendMode = 'avg'
+29.1135 	EXP 	window1: blendMode = 'avg'
+29.1300 	EXP 	window1: blendMode = 'avg'
+29.1469 	EXP 	window1: blendMode = 'avg'
+29.1633 	EXP 	window1: blendMode = 'avg'
+29.1801 	EXP 	window1: blendMode = 'avg'
+29.1968 	EXP 	window1: blendMode = 'avg'
+29.2137 	EXP 	window1: blendMode = 'avg'
+29.2299 	EXP 	window1: blendMode = 'avg'
+29.2466 	EXP 	window1: blendMode = 'avg'
+29.2635 	EXP 	window1: blendMode = 'avg'
+29.2802 	EXP 	window1: blendMode = 'avg'
+29.2967 	EXP 	window1: blendMode = 'avg'
+29.3134 	EXP 	window1: blendMode = 'avg'
+29.3301 	EXP 	window1: blendMode = 'avg'
+29.3466 	EXP 	window1: blendMode = 'avg'
+29.3632 	EXP 	window1: blendMode = 'avg'
+29.3802 	EXP 	window1: blendMode = 'avg'
+29.3969 	EXP 	window1: blendMode = 'avg'
+29.4134 	EXP 	window1: blendMode = 'avg'
+29.4279 	EXP 	window1: blendMode = 'avg'
+29.4450 	EXP 	window1: blendMode = 'avg'
+29.4617 	EXP 	window1: blendMode = 'avg'
+29.4799 	EXP 	window1: blendMode = 'avg'
+29.4965 	EXP 	window1: blendMode = 'avg'
+29.5135 	EXP 	window1: blendMode = 'avg'
+29.5298 	EXP 	window1: blendMode = 'avg'
+29.5465 	EXP 	window1: blendMode = 'avg'
+29.5632 	EXP 	window1: blendMode = 'avg'
+29.5803 	EXP 	window1: blendMode = 'avg'
+29.5964 	EXP 	window1: blendMode = 'avg'
+29.6135 	EXP 	window1: blendMode = 'avg'
+29.6298 	EXP 	window1: blendMode = 'avg'
+29.6466 	EXP 	window1: blendMode = 'avg'
+29.6631 	EXP 	window1: blendMode = 'avg'
+29.6799 	EXP 	window1: blendMode = 'avg'
+29.6964 	EXP 	window1: blendMode = 'avg'
+29.7135 	EXP 	window1: blendMode = 'avg'
+29.7298 	EXP 	window1: blendMode = 'avg'
+29.7464 	EXP 	window1: blendMode = 'avg'
+29.7616 	EXP 	window1: blendMode = 'avg'
+29.7784 	EXP 	window1: blendMode = 'avg'
+29.7961 	EXP 	window1: blendMode = 'avg'
+29.8133 	EXP 	window1: blendMode = 'avg'
+29.8278 	EXP 	window1: blendMode = 'avg'
+29.8448 	EXP 	window1: blendMode = 'avg'
+29.8619 	EXP 	window1: blendMode = 'avg'
+29.8798 	EXP 	window1: blendMode = 'avg'
+29.8965 	EXP 	window1: blendMode = 'avg'
+29.9132 	EXP 	window1: blendMode = 'avg'
+29.9297 	EXP 	window1: blendMode = 'avg'
+29.9466 	EXP 	window1: blendMode = 'avg'
+29.9631 	EXP 	window1: blendMode = 'avg'
+29.9799 	EXP 	window1: blendMode = 'avg'
+29.9964 	EXP 	window1: blendMode = 'avg'
+30.0115 	EXP 	window1: blendMode = 'avg'
+30.0284 	EXP 	window1: blendMode = 'avg'
+30.0458 	EXP 	window1: blendMode = 'avg'
+30.0630 	EXP 	window1: blendMode = 'avg'
+30.0940 	EXP 	Fixation_cross1: autoDraw = False
+30.1107 	EXP 	polygon_2: autoDraw = True
+30.5939 	EXP 	polygon_2: autoDraw = False
+30.6106 	EXP 	Noise_patch: autoDraw = True
+31.5935 	EXP 	Noise_patch: autoDraw = False
+31.5960 	EXP 	window1: blendMode = 'avg'
+31.6103 	EXP 	Fixation_cross2: autoDraw = True
+31.6129 	EXP 	window1: blendMode = 'avg'
+31.6292 	EXP 	window1: blendMode = 'avg'
+31.6461 	EXP 	window1: blendMode = 'avg'
+31.6625 	EXP 	window1: blendMode = 'avg'
+31.6792 	EXP 	window1: blendMode = 'avg'
+31.6959 	EXP 	window1: blendMode = 'avg'
+31.7126 	EXP 	window1: blendMode = 'avg'
+31.7290 	EXP 	window1: blendMode = 'avg'
+31.7459 	EXP 	window1: blendMode = 'avg'
+31.7627 	EXP 	window1: blendMode = 'avg'
+31.7792 	EXP 	window1: blendMode = 'avg'
+31.7959 	EXP 	window1: blendMode = 'avg'
+31.8127 	EXP 	window1: blendMode = 'avg'
+31.8435 	EXP 	Fixation_cross2: autoDraw = False
+31.8602 	EXP 	polygon: autoDraw = True
+32.3843 	DATA 	Keypress: left
+32.5643 	DATA 	Keypress: left
+32.7004 	DATA 	Keypress: left
+32.8801 	DATA 	Keypress: left
+33.0307 	DATA 	Keypress: left
+33.3988 	DATA 	Keypress: left
+33.5639 	DATA 	Keypress: left
+33.7136 	DATA 	Keypress: left
+34.1465 	DATA 	Keypress: right
+34.4463 	DATA 	Keypress: right
+34.6132 	DATA 	Keypress: right
+34.7641 	DATA 	Keypress: right
+34.9301 	DATA 	Keypress: right
+35.0801 	DATA 	Keypress: right
+35.2465 	DATA 	Keypress: right
+35.3962 	DATA 	Keypress: right
+35.5427 	DATA 	Keypress: right
+35.8436 	DATA 	Keypress: space
+35.8442 	EXP 	New trial (rep=0, index=3): {'stimulus_color': [1, 0.2, 0]}
+35.8501 	EXP 	window1: recordFrameIntervals = False
+35.8504 	EXP 	window1: blendMode = 'avg'
+35.8586 	EXP 	polygon_2: autoDraw = False
+35.8586 	EXP 	Noise_patch: autoDraw = False
+35.8586 	EXP 	polygon: autoDraw = False
+35.8586 	EXP 	Fixation_cross1: autoDraw = False
+35.8586 	EXP 	Fixation_cross2: autoDraw = False
+35.8586 	EXP 	polygon_2: fillColor = '[ 1.   0.2  0. ] (rgb)'
+35.8586 	EXP 	polygon_2: lineColor = '[ 1.   0.2  0. ] (rgb)'
+35.8586 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+35.8586 	EXP 	Fixation_cross1: autoDraw = True
+35.8601 	EXP 	window1: recordFrameIntervals = False
+36.3372 	EXP 	window1: blendMode = 'avg'
+36.3435 	EXP 	window1: blendMode = 'avg'
+36.3594 	EXP 	window1: blendMode = 'avg'
+36.3760 	EXP 	window1: blendMode = 'avg'
+36.3925 	EXP 	window1: blendMode = 'avg'
+36.4096 	EXP 	window1: blendMode = 'avg'
+36.4264 	EXP 	window1: blendMode = 'avg'
+36.4441 	EXP 	window1: blendMode = 'avg'
+36.4606 	EXP 	window1: blendMode = 'avg'
+36.4776 	EXP 	window1: blendMode = 'avg'
+36.4938 	EXP 	window1: blendMode = 'avg'
+36.5106 	EXP 	window1: blendMode = 'avg'
+36.5275 	EXP 	window1: blendMode = 'avg'
+36.5440 	EXP 	window1: blendMode = 'avg'
+36.5606 	EXP 	window1: blendMode = 'avg'
+36.5775 	EXP 	window1: blendMode = 'avg'
+36.5942 	EXP 	window1: blendMode = 'avg'
+36.6106 	EXP 	window1: blendMode = 'avg'
+36.6273 	EXP 	window1: blendMode = 'avg'
+36.6440 	EXP 	window1: blendMode = 'avg'
+36.6609 	EXP 	window1: blendMode = 'avg'
+36.6774 	EXP 	window1: blendMode = 'avg'
+36.6937 	EXP 	window1: blendMode = 'avg'
+36.7107 	EXP 	window1: blendMode = 'avg'
+36.7273 	EXP 	window1: blendMode = 'avg'
+36.7440 	EXP 	window1: blendMode = 'avg'
+36.7607 	EXP 	window1: blendMode = 'avg'
+36.7772 	EXP 	window1: blendMode = 'avg'
+36.7938 	EXP 	window1: blendMode = 'avg'
+36.8106 	EXP 	window1: blendMode = 'avg'
+36.8269 	EXP 	window1: blendMode = 'avg'
+36.8440 	EXP 	window1: blendMode = 'avg'
+36.8606 	EXP 	window1: blendMode = 'avg'
+36.8773 	EXP 	window1: blendMode = 'avg'
+36.8937 	EXP 	window1: blendMode = 'avg'
+36.9106 	EXP 	window1: blendMode = 'avg'
+36.9270 	EXP 	window1: blendMode = 'avg'
+36.9439 	EXP 	window1: blendMode = 'avg'
+36.9606 	EXP 	window1: blendMode = 'avg'
+36.9772 	EXP 	window1: blendMode = 'avg'
+36.9939 	EXP 	window1: blendMode = 'avg'
+37.0103 	EXP 	window1: blendMode = 'avg'
+37.0270 	EXP 	window1: blendMode = 'avg'
+37.0438 	EXP 	window1: blendMode = 'avg'
+37.0609 	EXP 	window1: blendMode = 'avg'
+37.0774 	EXP 	window1: blendMode = 'avg'
+37.0944 	EXP 	window1: blendMode = 'avg'
+37.1106 	EXP 	window1: blendMode = 'avg'
+37.1274 	EXP 	window1: blendMode = 'avg'
+37.1440 	EXP 	window1: blendMode = 'avg'
+37.1605 	EXP 	window1: blendMode = 'avg'
+37.1771 	EXP 	window1: blendMode = 'avg'
+37.1938 	EXP 	window1: blendMode = 'avg'
+37.2107 	EXP 	window1: blendMode = 'avg'
+37.2269 	EXP 	window1: blendMode = 'avg'
+37.2437 	EXP 	window1: blendMode = 'avg'
+37.2605 	EXP 	window1: blendMode = 'avg'
+37.2771 	EXP 	window1: blendMode = 'avg'
+37.2940 	EXP 	window1: blendMode = 'avg'
+37.3102 	EXP 	window1: blendMode = 'avg'
+37.3271 	EXP 	window1: blendMode = 'avg'
+37.3436 	EXP 	window1: blendMode = 'avg'
+37.3604 	EXP 	window1: blendMode = 'avg'
+37.3771 	EXP 	window1: blendMode = 'avg'
+37.3938 	EXP 	window1: blendMode = 'avg'
+37.4107 	EXP 	window1: blendMode = 'avg'
+37.4268 	EXP 	window1: blendMode = 'avg'
+37.4436 	EXP 	window1: blendMode = 'avg'
+37.4606 	EXP 	window1: blendMode = 'avg'
+37.4775 	EXP 	window1: blendMode = 'avg'
+37.4940 	EXP 	window1: blendMode = 'avg'
+37.5107 	EXP 	window1: blendMode = 'avg'
+37.5271 	EXP 	window1: blendMode = 'avg'
+37.5438 	EXP 	window1: blendMode = 'avg'
+37.5604 	EXP 	window1: blendMode = 'avg'
+37.5774 	EXP 	window1: blendMode = 'avg'
+37.5939 	EXP 	window1: blendMode = 'avg'
+37.6104 	EXP 	window1: blendMode = 'avg'
+37.6268 	EXP 	window1: blendMode = 'avg'
+37.6436 	EXP 	window1: blendMode = 'avg'
+37.6604 	EXP 	window1: blendMode = 'avg'
+37.6771 	EXP 	window1: blendMode = 'avg'
+37.6936 	EXP 	window1: blendMode = 'avg'
+37.7104 	EXP 	window1: blendMode = 'avg'
+37.7269 	EXP 	window1: blendMode = 'avg'
+37.7436 	EXP 	window1: blendMode = 'avg'
+37.7603 	EXP 	window1: blendMode = 'avg'
+37.7770 	EXP 	window1: blendMode = 'avg'
+37.7938 	EXP 	window1: blendMode = 'avg'
+37.8103 	EXP 	window1: blendMode = 'avg'
+37.8266 	EXP 	window1: blendMode = 'avg'
+37.8582 	EXP 	Fixation_cross1: autoDraw = False
+37.8749 	EXP 	polygon_2: autoDraw = True
+38.3580 	EXP 	polygon_2: autoDraw = False
+38.3748 	EXP 	Noise_patch: autoDraw = True
+39.3577 	EXP 	Noise_patch: autoDraw = False
+39.3603 	EXP 	window1: blendMode = 'avg'
+39.3745 	EXP 	Fixation_cross2: autoDraw = True
+39.3771 	EXP 	window1: blendMode = 'avg'
+39.3935 	EXP 	window1: blendMode = 'avg'
+39.4104 	EXP 	window1: blendMode = 'avg'
+39.4269 	EXP 	window1: blendMode = 'avg'
+39.4434 	EXP 	window1: blendMode = 'avg'
+39.4602 	EXP 	window1: blendMode = 'avg'
+39.4773 	EXP 	window1: blendMode = 'avg'
+39.4934 	EXP 	window1: blendMode = 'avg'
+39.5101 	EXP 	window1: blendMode = 'avg'
+39.5269 	EXP 	window1: blendMode = 'avg'
+39.5434 	EXP 	window1: blendMode = 'avg'
+39.5584 	EXP 	window1: blendMode = 'avg'
+39.5757 	EXP 	window1: blendMode = 'avg'
+39.6077 	EXP 	Fixation_cross2: autoDraw = False
+39.6244 	EXP 	polygon: autoDraw = True
+40.7799 	DATA 	Keypress: left
+41.2284 	DATA 	Keypress: space
+41.2297 	EXP 	New trial (rep=0, index=4): {'stimulus_color': [1, 0.9, 0]}
+41.2412 	EXP 	window1: recordFrameIntervals = False
+41.2421 	EXP 	window1: blendMode = 'avg'
+41.2475 	EXP 	polygon_2: autoDraw = False
+41.2475 	EXP 	Noise_patch: autoDraw = False
+41.2475 	EXP 	polygon: autoDraw = False
+41.2475 	EXP 	Fixation_cross1: autoDraw = False
+41.2475 	EXP 	Fixation_cross2: autoDraw = False
+41.2475 	EXP 	polygon_2: fillColor = '[ 1.   0.9  0. ] (rgb)'
+41.2475 	EXP 	polygon_2: lineColor = '[ 1.   0.9  0. ] (rgb)'
+41.2475 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+41.2475 	EXP 	Fixation_cross1: autoDraw = True
+41.2493 	EXP 	window1: recordFrameIntervals = False
+41.7263 	EXP 	window1: blendMode = 'avg'
+41.7323 	EXP 	window1: blendMode = 'avg'
+41.7411 	EXP 	window1: blendMode = 'avg'
+41.7579 	EXP 	window1: blendMode = 'avg'
+41.7743 	EXP 	window1: blendMode = 'avg'
+41.7911 	EXP 	window1: blendMode = 'avg'
+41.8087 	EXP 	window1: blendMode = 'avg'
+41.8257 	EXP 	window1: blendMode = 'avg'
+41.8423 	EXP 	window1: blendMode = 'avg'
+41.8590 	EXP 	window1: blendMode = 'avg'
+41.8760 	EXP 	window1: blendMode = 'avg'
+41.8923 	EXP 	window1: blendMode = 'avg'
+41.9090 	EXP 	window1: blendMode = 'avg'
+41.9256 	EXP 	window1: blendMode = 'avg'
+41.9426 	EXP 	window1: blendMode = 'avg'
+41.9588 	EXP 	window1: blendMode = 'avg'
+41.9758 	EXP 	window1: blendMode = 'avg'
+41.9925 	EXP 	window1: blendMode = 'avg'
+42.0089 	EXP 	window1: blendMode = 'avg'
+42.0256 	EXP 	window1: blendMode = 'avg'
+42.0423 	EXP 	window1: blendMode = 'avg'
+42.0595 	EXP 	window1: blendMode = 'avg'
+42.0760 	EXP 	window1: blendMode = 'avg'
+42.0923 	EXP 	window1: blendMode = 'avg'
+42.1089 	EXP 	window1: blendMode = 'avg'
+42.1258 	EXP 	window1: blendMode = 'avg'
+42.1423 	EXP 	window1: blendMode = 'avg'
+42.1589 	EXP 	window1: blendMode = 'avg'
+42.1758 	EXP 	window1: blendMode = 'avg'
+42.1924 	EXP 	window1: blendMode = 'avg'
+42.2089 	EXP 	window1: blendMode = 'avg'
+42.2255 	EXP 	window1: blendMode = 'avg'
+42.2423 	EXP 	window1: blendMode = 'avg'
+42.2593 	EXP 	window1: blendMode = 'avg'
+42.2756 	EXP 	window1: blendMode = 'avg'
+42.2922 	EXP 	window1: blendMode = 'avg'
+42.3090 	EXP 	window1: blendMode = 'avg'
+42.3255 	EXP 	window1: blendMode = 'avg'
+42.3423 	EXP 	window1: blendMode = 'avg'
+42.3592 	EXP 	window1: blendMode = 'avg'
+42.3762 	EXP 	window1: blendMode = 'avg'
+42.3926 	EXP 	window1: blendMode = 'avg'
+42.4092 	EXP 	window1: blendMode = 'avg'
+42.4258 	EXP 	window1: blendMode = 'avg'
+42.4427 	EXP 	window1: blendMode = 'avg'
+42.4591 	EXP 	window1: blendMode = 'avg'
+42.4757 	EXP 	window1: blendMode = 'avg'
+42.4927 	EXP 	window1: blendMode = 'avg'
+42.5091 	EXP 	window1: blendMode = 'avg'
+42.5258 	EXP 	window1: blendMode = 'avg'
+42.5425 	EXP 	window1: blendMode = 'avg'
+42.5594 	EXP 	window1: blendMode = 'avg'
+42.5759 	EXP 	window1: blendMode = 'avg'
+42.5925 	EXP 	window1: blendMode = 'avg'
+42.6091 	EXP 	window1: blendMode = 'avg'
+42.6260 	EXP 	window1: blendMode = 'avg'
+42.6425 	EXP 	window1: blendMode = 'avg'
+42.6591 	EXP 	window1: blendMode = 'avg'
+42.6760 	EXP 	window1: blendMode = 'avg'
+42.6927 	EXP 	window1: blendMode = 'avg'
+42.7091 	EXP 	window1: blendMode = 'avg'
+42.7257 	EXP 	window1: blendMode = 'avg'
+42.7425 	EXP 	window1: blendMode = 'avg'
+42.7595 	EXP 	window1: blendMode = 'avg'
+42.7759 	EXP 	window1: blendMode = 'avg'
+42.7924 	EXP 	window1: blendMode = 'avg'
+42.8092 	EXP 	window1: blendMode = 'avg'
+42.8257 	EXP 	window1: blendMode = 'avg'
+42.8424 	EXP 	window1: blendMode = 'avg'
+42.8591 	EXP 	window1: blendMode = 'avg'
+42.8762 	EXP 	window1: blendMode = 'avg'
+42.8925 	EXP 	window1: blendMode = 'avg'
+42.9090 	EXP 	window1: blendMode = 'avg'
+42.9257 	EXP 	window1: blendMode = 'avg'
+42.9426 	EXP 	window1: blendMode = 'avg'
+42.9591 	EXP 	window1: blendMode = 'avg'
+42.9756 	EXP 	window1: blendMode = 'avg'
+42.9925 	EXP 	window1: blendMode = 'avg'
+43.0090 	EXP 	window1: blendMode = 'avg'
+43.0255 	EXP 	window1: blendMode = 'avg'
+43.0422 	EXP 	window1: blendMode = 'avg'
+43.0599 	EXP 	window1: blendMode = 'avg'
+43.0738 	EXP 	window1: blendMode = 'avg'
+43.0910 	EXP 	window1: blendMode = 'avg'
+43.1087 	EXP 	window1: blendMode = 'avg'
+43.1258 	EXP 	window1: blendMode = 'avg'
+43.1423 	EXP 	window1: blendMode = 'avg'
+43.1589 	EXP 	window1: blendMode = 'avg'
+43.1757 	EXP 	window1: blendMode = 'avg'
+43.1925 	EXP 	window1: blendMode = 'avg'
+43.2089 	EXP 	window1: blendMode = 'avg'
+43.2399 	EXP 	Fixation_cross1: autoDraw = False
+43.2567 	EXP 	polygon_2: autoDraw = True
+43.7397 	EXP 	polygon_2: autoDraw = False
+43.7565 	EXP 	Noise_patch: autoDraw = True
+44.7396 	EXP 	Noise_patch: autoDraw = False
+44.7418 	EXP 	window1: blendMode = 'avg'
+44.7560 	EXP 	Fixation_cross2: autoDraw = True
+44.7581 	EXP 	window1: blendMode = 'avg'
+44.7748 	EXP 	window1: blendMode = 'avg'
+44.7914 	EXP 	window1: blendMode = 'avg'
+44.8083 	EXP 	window1: blendMode = 'avg'
+44.8248 	EXP 	window1: blendMode = 'avg'
+44.8401 	EXP 	window1: blendMode = 'avg'
+44.8569 	EXP 	window1: blendMode = 'avg'
+44.8746 	EXP 	window1: blendMode = 'avg'
+44.8914 	EXP 	window1: blendMode = 'avg'
+44.9079 	EXP 	window1: blendMode = 'avg'
+44.9247 	EXP 	window1: blendMode = 'avg'
+44.9415 	EXP 	window1: blendMode = 'avg'
+44.9580 	EXP 	window1: blendMode = 'avg'
+44.9893 	EXP 	Fixation_cross2: autoDraw = False
+45.0058 	EXP 	polygon: autoDraw = True
+46.3259 	DATA 	Keypress: right
+47.1103 	DATA 	Keypress: right
+47.2761 	DATA 	Keypress: right
+47.7392 	DATA 	Keypress: space
+47.7396 	EXP 	New trial (rep=0, index=5): {'stimulus_color': [1, 0.8, 0]}
+47.7425 	EXP 	window1: recordFrameIntervals = False
+47.7429 	EXP 	window1: blendMode = 'avg'
+47.7548 	EXP 	polygon_2: autoDraw = False
+47.7548 	EXP 	Noise_patch: autoDraw = False
+47.7548 	EXP 	polygon: autoDraw = False
+47.7548 	EXP 	Fixation_cross1: autoDraw = False
+47.7548 	EXP 	Fixation_cross2: autoDraw = False
+47.7548 	EXP 	polygon_2: fillColor = '[ 1.   0.8  0. ] (rgb)'
+47.7548 	EXP 	polygon_2: lineColor = '[ 1.   0.8  0. ] (rgb)'
+47.7548 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+47.7548 	EXP 	Fixation_cross1: autoDraw = True
+47.7555 	EXP 	window1: recordFrameIntervals = False
+48.2340 	EXP 	window1: blendMode = 'avg'
+48.2400 	EXP 	window1: blendMode = 'avg'
+48.2558 	EXP 	window1: blendMode = 'avg'
+48.2720 	EXP 	window1: blendMode = 'avg'
+48.2890 	EXP 	window1: blendMode = 'avg'
+48.3058 	EXP 	window1: blendMode = 'avg'
+48.3233 	EXP 	window1: blendMode = 'avg'
+48.3402 	EXP 	window1: blendMode = 'avg'
+48.3569 	EXP 	window1: blendMode = 'avg'
+48.3737 	EXP 	window1: blendMode = 'avg'
+48.3905 	EXP 	window1: blendMode = 'avg'
+48.4070 	EXP 	window1: blendMode = 'avg'
+48.4237 	EXP 	window1: blendMode = 'avg'
+48.4403 	EXP 	window1: blendMode = 'avg'
+48.4571 	EXP 	window1: blendMode = 'avg'
+48.4737 	EXP 	window1: blendMode = 'avg'
+48.4903 	EXP 	window1: blendMode = 'avg'
+48.5070 	EXP 	window1: blendMode = 'avg'
+48.5233 	EXP 	window1: blendMode = 'avg'
+48.5386 	EXP 	window1: blendMode = 'avg'
+48.5558 	EXP 	window1: blendMode = 'avg'
+48.5737 	EXP 	window1: blendMode = 'avg'
+48.5902 	EXP 	window1: blendMode = 'avg'
+48.6070 	EXP 	window1: blendMode = 'avg'
+48.6236 	EXP 	window1: blendMode = 'avg'
+48.6399 	EXP 	window1: blendMode = 'avg'
+48.6570 	EXP 	window1: blendMode = 'avg'
+48.6736 	EXP 	window1: blendMode = 'avg'
+48.6902 	EXP 	window1: blendMode = 'avg'
+48.7071 	EXP 	window1: blendMode = 'avg'
+48.7236 	EXP 	window1: blendMode = 'avg'
+48.7399 	EXP 	window1: blendMode = 'avg'
+48.7566 	EXP 	window1: blendMode = 'avg'
+48.7737 	EXP 	window1: blendMode = 'avg'
+48.7902 	EXP 	window1: blendMode = 'avg'
+48.8069 	EXP 	window1: blendMode = 'avg'
+48.8235 	EXP 	window1: blendMode = 'avg'
+48.8404 	EXP 	window1: blendMode = 'avg'
+48.8565 	EXP 	window1: blendMode = 'avg'
+48.8735 	EXP 	window1: blendMode = 'avg'
+48.8903 	EXP 	window1: blendMode = 'avg'
+48.9068 	EXP 	window1: blendMode = 'avg'
+48.9235 	EXP 	window1: blendMode = 'avg'
+48.9413 	EXP 	window1: blendMode = 'avg'
+48.9570 	EXP 	window1: blendMode = 'avg'
+48.9735 	EXP 	window1: blendMode = 'avg'
+48.9901 	EXP 	window1: blendMode = 'avg'
+49.0068 	EXP 	window1: blendMode = 'avg'
+49.0236 	EXP 	window1: blendMode = 'avg'
+49.0403 	EXP 	window1: blendMode = 'avg'
+49.0571 	EXP 	window1: blendMode = 'avg'
+49.0740 	EXP 	window1: blendMode = 'avg'
+49.0906 	EXP 	window1: blendMode = 'avg'
+49.1070 	EXP 	window1: blendMode = 'avg'
+49.1239 	EXP 	window1: blendMode = 'avg'
+49.1413 	EXP 	window1: blendMode = 'avg'
+49.1569 	EXP 	window1: blendMode = 'avg'
+49.1737 	EXP 	window1: blendMode = 'avg'
+49.1905 	EXP 	window1: blendMode = 'avg'
+49.2073 	EXP 	window1: blendMode = 'avg'
+49.2237 	EXP 	window1: blendMode = 'avg'
+49.2404 	EXP 	window1: blendMode = 'avg'
+49.2573 	EXP 	window1: blendMode = 'avg'
+49.2737 	EXP 	window1: blendMode = 'avg'
+49.2903 	EXP 	window1: blendMode = 'avg'
+49.3070 	EXP 	window1: blendMode = 'avg'
+49.3237 	EXP 	window1: blendMode = 'avg'
+49.3406 	EXP 	window1: blendMode = 'avg'
+49.3568 	EXP 	window1: blendMode = 'avg'
+49.3738 	EXP 	window1: blendMode = 'avg'
+49.3905 	EXP 	window1: blendMode = 'avg'
+49.4070 	EXP 	window1: blendMode = 'avg'
+49.4238 	EXP 	window1: blendMode = 'avg'
+49.4404 	EXP 	window1: blendMode = 'avg'
+49.4572 	EXP 	window1: blendMode = 'avg'
+49.4735 	EXP 	window1: blendMode = 'avg'
+49.4903 	EXP 	window1: blendMode = 'avg'
+49.5070 	EXP 	window1: blendMode = 'avg'
+49.5240 	EXP 	window1: blendMode = 'avg'
+49.5402 	EXP 	window1: blendMode = 'avg'
+49.5571 	EXP 	window1: blendMode = 'avg'
+49.5739 	EXP 	window1: blendMode = 'avg'
+49.5904 	EXP 	window1: blendMode = 'avg'
+49.6069 	EXP 	window1: blendMode = 'avg'
+49.6237 	EXP 	window1: blendMode = 'avg'
+49.6407 	EXP 	window1: blendMode = 'avg'
+49.6569 	EXP 	window1: blendMode = 'avg'
+49.6737 	EXP 	window1: blendMode = 'avg'
+49.6903 	EXP 	window1: blendMode = 'avg'
+49.7071 	EXP 	window1: blendMode = 'avg'
+49.7236 	EXP 	window1: blendMode = 'avg'
+49.7545 	EXP 	Fixation_cross1: autoDraw = False
+49.7713 	EXP 	polygon_2: autoDraw = True
+50.2545 	EXP 	polygon_2: autoDraw = False
+50.2711 	EXP 	Noise_patch: autoDraw = True
+51.2541 	EXP 	Noise_patch: autoDraw = False
+51.2566 	EXP 	window1: blendMode = 'avg'
+51.2710 	EXP 	Fixation_cross2: autoDraw = True
+51.2735 	EXP 	window1: blendMode = 'avg'
+51.2900 	EXP 	window1: blendMode = 'avg'
+51.3064 	EXP 	window1: blendMode = 'avg'
+51.3230 	EXP 	window1: blendMode = 'avg'
+51.3399 	EXP 	window1: blendMode = 'avg'
+51.3564 	EXP 	window1: blendMode = 'avg'
+51.3733 	EXP 	window1: blendMode = 'avg'
+51.3899 	EXP 	window1: blendMode = 'avg'
+51.4064 	EXP 	window1: blendMode = 'avg'
+51.4230 	EXP 	window1: blendMode = 'avg'
+51.4397 	EXP 	window1: blendMode = 'avg'
+51.4566 	EXP 	window1: blendMode = 'avg'
+51.4732 	EXP 	window1: blendMode = 'avg'
+51.5042 	EXP 	Fixation_cross2: autoDraw = False
+51.5207 	EXP 	polygon: autoDraw = True
+52.6749 	DATA 	Keypress: space
+52.6762 	EXP 	New trial (rep=0, index=6): {'stimulus_color': [1, 0.6, 0]}
+52.6857 	EXP 	window1: recordFrameIntervals = False
+52.6866 	EXP 	window1: blendMode = 'avg'
+52.6920 	EXP 	polygon_2: autoDraw = False
+52.6920 	EXP 	Noise_patch: autoDraw = False
+52.6920 	EXP 	polygon: autoDraw = False
+52.6920 	EXP 	Fixation_cross1: autoDraw = False
+52.6920 	EXP 	Fixation_cross2: autoDraw = False
+52.6920 	EXP 	polygon_2: fillColor = '[ 1.   0.6  0. ] (rgb)'
+52.6920 	EXP 	polygon_2: lineColor = '[ 1.   0.6  0. ] (rgb)'
+52.6920 	EXP 	Noise_patch: image = array([[ 0.96581677,  0.46268978, -0.59119745, ..., -0.58606241,
+         0.96370079,  0.18881466],
+       [-0.01155382,  0.39308372,  0.9386381 , ..., -0.382586  ,
+         0.59069919, -0.41768426],
+       [-0.14182668, -0.31036013,  0.74918535, ...,  0.94561624,
+         0.61715287, -0.67316691],
+       ..., 
+       [-0.70984994, -0.60628174,  0.35210159, ..., -0.80372012,
+        -0.87443998,  0.41049945],
+       [-0.79456504, -0.17067624,  0.90212263, ..., -0.0221447 ,
+        -0.37896369,  0.41545429],
+       [-0.09699611, -0.12206393, -0.44204296, ...,  0.67706406,
+         0.67717231, -0.24872677]])
+52.6920 	EXP 	Fixation_cross1: autoDraw = True
+52.6936 	EXP 	window1: recordFrameIntervals = False
+53.1689 	EXP 	window1: blendMode = 'avg'
+53.1744 	EXP 	window1: blendMode = 'avg'
+53.1876 	EXP 	window1: blendMode = 'avg'
+53.2040 	EXP 	window1: blendMode = 'avg'
+53.2206 	EXP 	window1: blendMode = 'avg'
+53.2375 	EXP 	window1: blendMode = 'avg'
+53.2543 	EXP 	window1: blendMode = 'avg'
+53.2721 	EXP 	window1: blendMode = 'avg'
+53.2891 	EXP 	window1: blendMode = 'avg'
+53.3060 	EXP 	window1: blendMode = 'avg'
+53.3225 	EXP 	window1: blendMode = 'avg'
+53.3393 	EXP 	window1: blendMode = 'avg'
+53.3557 	EXP 	window1: blendMode = 'avg'
+53.3728 	EXP 	window1: blendMode = 'avg'
+53.3893 	EXP 	window1: blendMode = 'avg'
+53.4057 	EXP 	window1: blendMode = 'avg'
+53.4227 	EXP 	window1: blendMode = 'avg'
+53.4392 	EXP 	window1: blendMode = 'avg'
+53.4557 	EXP 	window1: blendMode = 'avg'
+53.4726 	EXP 	window1: blendMode = 'avg'
+53.4894 	EXP 	window1: blendMode = 'avg'
+53.5057 	EXP 	window1: blendMode = 'avg'
+53.5225 	EXP 	window1: blendMode = 'avg'
+53.5392 	EXP 	window1: blendMode = 'avg'
+53.5557 	EXP 	window1: blendMode = 'avg'
+53.5726 	EXP 	window1: blendMode = 'avg'
+53.5892 	EXP 	window1: blendMode = 'avg'
+53.6060 	EXP 	window1: blendMode = 'avg'
+53.6224 	EXP 	window1: blendMode = 'avg'
+53.6390 	EXP 	window1: blendMode = 'avg'
+53.6558 	EXP 	window1: blendMode = 'avg'
+53.6728 	EXP 	window1: blendMode = 'avg'
+53.6891 	EXP 	window1: blendMode = 'avg'
+53.7056 	EXP 	window1: blendMode = 'avg'
+53.7223 	EXP 	window1: blendMode = 'avg'
+53.7396 	EXP 	window1: blendMode = 'avg'
+53.7556 	EXP 	window1: blendMode = 'avg'
+53.7725 	EXP 	window1: blendMode = 'avg'
+53.7891 	EXP 	window1: blendMode = 'avg'
+53.8058 	EXP 	window1: blendMode = 'avg'
+53.8223 	EXP 	window1: blendMode = 'avg'
+53.8392 	EXP 	window1: blendMode = 'avg'
+53.8558 	EXP 	window1: blendMode = 'avg'
+53.8727 	EXP 	window1: blendMode = 'avg'
+53.8891 	EXP 	window1: blendMode = 'avg'
+53.9056 	EXP 	window1: blendMode = 'avg'
+53.9225 	EXP 	window1: blendMode = 'avg'
+53.9392 	EXP 	window1: blendMode = 'avg'
+53.9555 	EXP 	window1: blendMode = 'avg'
+53.9724 	EXP 	window1: blendMode = 'avg'
+53.9893 	EXP 	window1: blendMode = 'avg'
+54.0055 	EXP 	window1: blendMode = 'avg'
+54.0223 	EXP 	window1: blendMode = 'avg'
+54.0390 	EXP 	window1: blendMode = 'avg'
+54.0557 	EXP 	window1: blendMode = 'avg'
+54.0725 	EXP 	window1: blendMode = 'avg'
+54.0890 	EXP 	window1: blendMode = 'avg'
+54.1057 	EXP 	window1: blendMode = 'avg'
+54.1223 	EXP 	window1: blendMode = 'avg'
+54.1390 	EXP 	window1: blendMode = 'avg'
+54.1557 	EXP 	window1: blendMode = 'avg'
+54.1726 	EXP 	window1: blendMode = 'avg'
+54.1890 	EXP 	window1: blendMode = 'avg'
+54.2055 	EXP 	window1: blendMode = 'avg'
+54.2222 	EXP 	window1: blendMode = 'avg'
+54.2393 	EXP 	window1: blendMode = 'avg'
+54.2554 	EXP 	window1: blendMode = 'avg'
+54.2727 	EXP 	window1: blendMode = 'avg'
+54.2890 	EXP 	window1: blendMode = 'avg'
+54.3057 	EXP 	window1: blendMode = 'avg'
+54.3221 	EXP 	window1: blendMode = 'avg'
+54.3388 	EXP 	window1: blendMode = 'avg'
+54.3557 	EXP 	window1: blendMode = 'avg'
+54.3725 	EXP 	window1: blendMode = 'avg'
+54.3890 	EXP 	window1: blendMode = 'avg'
+54.4054 	EXP 	window1: blendMode = 'avg'
+54.4223 	EXP 	window1: blendMode = 'avg'
+54.4388 	EXP 	window1: blendMode = 'avg'
+54.4537 	EXP 	window1: blendMode = 'avg'
+54.4710 	EXP 	window1: blendMode = 'avg'
+54.4891 	EXP 	window1: blendMode = 'avg'
+54.5054 	EXP 	window1: blendMode = 'avg'
+54.5221 	EXP 	window1: blendMode = 'avg'
+54.5388 	EXP 	window1: blendMode = 'avg'
+54.5537 	EXP 	window1: blendMode = 'avg'
+54.5710 	EXP 	window1: blendMode = 'avg'
+54.5888 	EXP 	window1: blendMode = 'avg'
+54.6056 	EXP 	window1: blendMode = 'avg'
+54.6221 	EXP 	window1: blendMode = 'avg'
+54.6388 	EXP 	window1: blendMode = 'avg'
+54.6553 	EXP 	window1: blendMode = 'avg'
+54.6862 	EXP 	Fixation_cross1: autoDraw = False
+54.7030 	EXP 	polygon_2: autoDraw = True
+55.0899 	DATA 	Keypress: escape

@@ -1,0 +1,7 @@
+stimulus_color,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,colorChosen,prop_red,key_resp_3.keys,key_resp_3.rt,date,frameRate,expName,session,participant,
+"[1, 0.3, 0]",0,0,0,3,"[1, 0.30000000000000004, 0]",0.3,space,2.33812029629,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,
+"[1, 0, 0]",0,1,1,0,"[1, 0, 0]",0,space,3.1207865679,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,
+"[1, 0.4, 0]",0,2,2,4,"[1, 0.45, 0]",0.45,space,2.45533590124,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,
+"[1, 0.5, 0]",0,3,3,5,"[1, 0.30000000000000004, 0]",0.3,space,1.62131081481,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,
+"[1, 1, 0]",0,4,4,10,"[1, 1, 0]",1,space,2.3701811358,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,
+"[1, 0.8, 0]",0,5,5,8,"[1, 1, 0]",1,space,1.90408375308,2017_Jun_15_0955,59.9734162283,OneStepFurther1,001,b,

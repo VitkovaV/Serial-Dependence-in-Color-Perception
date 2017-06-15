@@ -1,0 +1,5 @@
+stimulus_color,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,colorChosen,prop_red,date,frameRate,expName,session,participant,
+"[1, 0.1, 0]",0,0,0,1,"[1, 0, 0]",0,2017_Jun_14_2052,60.1890619397,OneStepFurther1,001,l,
+"[1, 0.9, 0]",0,1,1,9,"[1, 0.5, 0]",0.5,2017_Jun_14_2052,60.1890619397,OneStepFurther1,001,l,
+"[1, 0, 0]",0,2,2,0,"[1, 0, 0]",0,2017_Jun_14_2052,60.1890619397,OneStepFurther1,001,l,
+"[1, 0.3, 0]",0,3,3,3,"[1, 0.30000000000000004, 0]",0.3,2017_Jun_14_2052,60.1890619397,OneStepFurther1,001,l,
