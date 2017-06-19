@@ -1,0 +1,5 @@
+blue,trial,green,red,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,colorChosen,prop_red,key_resp_3.keys,key_resp_3.rt,date,frameRate,expName,session,participant,
+0.0,82,0.374393141642,1.0,0,0,0,81,"[1, 1, 0]",1,space,2.88802686421,2017_Jun_18_1518,59.8170926242,OneStepFurther1,001,jf,
+1.0,304,0.0,0.514393141642,0,1,1,303,"[1, 0, 0]",0,space,2.17099891359,2017_Jun_18_1518,59.8170926242,OneStepFurther1,001,jf,
+0.404393141642,192,1.0,0.0,0,2,2,191,"[1, 0.7500000000000002, 0]",0.75,space,1.03722587653,2017_Jun_18_1518,59.8170926242,OneStepFurther1,001,jf,
+0.724393141642,129,1.0,0.0,0,3,3,128,"[1, 0.6, 0]",0.6,space,2.10396879015,2017_Jun_18_1518,59.8170926242,OneStepFurther1,001,jf,
