@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.85.1),
-    on June 15, 2017, at 09:55
+    on June 18, 2017, at 19:16
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -246,7 +246,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Stimuli-red.xlsx'),
+    trialList=data.importConditions(u'trials_R.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -268,8 +268,8 @@ for thisTrial in trials:
     frameN = -1
     continueRoutine = True
     # update component parameters for each repeat
-    polygon_2.setFillColor(stimulus_color)
-    polygon_2.setLineColor(stimulus_color)
+    polygon_2.setFillColor(trial_red)
+    polygon_2.setLineColor(trial_red)
     Noise_patch.setImage(noiseTexture)
     color= [1,green,0]
     green = 0.5
