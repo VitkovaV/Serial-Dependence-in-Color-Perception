@@ -9,6 +9,7 @@ from skimage import color
 import random
 
 def lab2rgb(lab):
+#    lab=alle
     thres1 = 216/24389
     thres2 = 24389/27
     thres3 = 0.0031308
@@ -31,31 +32,33 @@ def lab2rgb(lab):
     else:
         z=(116*z-16)/thres2
     xyz=np.array((x,y,z))
+    white=(0.950456,1,1.088754)
+    xyz=xyz*white
     Minv=np.array([3.2404542,-1.5371385,-0.4985314,-0.9692660,1.8760108,0.0415560,0.0556434,-0.2040259,1.0572252]).reshape(3,3)    
-    RGB=np.dot(xyz,Minv)
-    RGB[np.greater(RGB,1)]=1
-    RGB[np.less(RGB,0)]=0
+    RGB=np.dot(Minv,xyz)
+    #RGB[np.greater(RGB,1)]=1
+    #RGB[np.less(RGB,0)]=0
     RGBthresh = np.less(RGB,thres3)
-    RGB[RGBthresh] = 1.055 * (RGB[RGBthresh]**(1/2.4)) - 0.055
-    RGB[np.invert(RGBthresh)] = 12.92 * RGB[np.invert(RGBthresh)]
+    RGB[np.invert(RGBthresh)] = 1.055 * (RGB[np.invert(RGBthresh)]**(1/2.4)) - 0.055
+    RGB[RGBthresh] = 12.92 * RGB[RGBthresh]
     RGB[np.greater(RGB,1)]=1
     RGB[np.less(RGB,0)]=0
     return(RGB);
 
-lab2rgb(alle)
-
+rgb=lab2rgb((50,10,10))
+rgb[2]
 
 Minv
 
-
+xyz
 
 
 alle=(random.random(),random.random(),random.random())
 alle2=(0,0,0)
 ([[alle]])
-color.xyz2rgb([[lab2rgb(alle)]])
+color.lab2rgb([[alle]])
 
-
+color.lab2xyz([[alle]])
 alle=(1,1,1)
 alle[2]
 lab2rgb(alle)
